@@ -1,6 +1,6 @@
 .calculator-keyboard {
   max-width: 500px;
-  padding: 40px;
+  padding: 0 40px 40px 40px;
 }
 
 .calculator-keyboard-line {

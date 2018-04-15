@@ -1,0 +1,10 @@
+.calculator-name {
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  color: var(--lightBlack-50);
+  margin: 20px 0px 7px 0px;
+  padding: 7px 0;
+  border-top: 1px solid var(--lightBlack-50);
+  font-size: 14px;
+}

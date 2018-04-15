@@ -8,7 +8,11 @@ class Calculator extends React.Component {
   render() {
     const { expression, result, ...actions } = this.props;
     return (
-      <div className="calculator shadow">
+      <div className="calculator">
+        <div className="brand-container">
+          <div>Casio</div>
+          <div>MonkE</div>
+        </div>
         <Screen expression={expression} result={result} />
         <Keyboard {...actions} />
       </div>

@@ -3,3 +3,11 @@
   background-color: #fefeff;
   border-radius: 20px;
 }
+
+.brand-container {
+  margin: 20px 40px;
+  width: 420px;
+  display: flex;
+  color: var(--lightBlack-70);
+  justify-content: space-between;
+}

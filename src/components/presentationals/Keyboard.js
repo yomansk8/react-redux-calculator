@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import CalculatorName from "./CalculatorName";
 import NumericButton from "./Buttons/NumericButton";
 import OperandButton from "./Buttons/OperandButton";
 import ClearButton from "./Buttons/ClearButton";
@@ -11,6 +12,7 @@ class Keyboard extends React.Component {
     const { updateExpression, calculateResult, clearResult } = this.props;
     return (
       <div className="calculator-keyboard">
+        <CalculatorName />
         <div className="calculator-keyboard-line margin-bottom-25">
           <NumericButton onClick={updateExpression} value="7" text="7" />
           <NumericButton onClick={updateExpression} value="8" text="8" />
