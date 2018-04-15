@@ -1,0 +1,14 @@
+@import "./constants/constants.css";
+
+@font-face {
+  font-family: "Meslo";
+  src: url("./fonts/MesloLGS-Regular.ttf") format("truetype"), url("./fonts/MesloLGS-Italic.ttf") format("truetype"),
+    url("./fonts/MesloLGS-Bold.ttf") format("truetype"), url("./fonts/MesloLGS-BoldItalic.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Meslo", sans-serif;
+  background-color: var(--backgroundColor);
+}

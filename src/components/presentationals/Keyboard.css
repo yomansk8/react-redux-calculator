@@ -1,0 +1,11 @@
+.calculator-keyboard {
+  max-width: 500px;
+  padding: 40px;
+}
+
+.calculator-keyboard-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}

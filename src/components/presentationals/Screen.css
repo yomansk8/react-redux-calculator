@@ -1,0 +1,29 @@
+.calculator-screen {
+  max-width: 500px;
+  display: block;
+  border-bottom: 1px solid #dad5e4;
+  border-radius: 20px 20px 0 0;
+  text-align: right;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.calculator-screen-line1 {
+  width: 100%;
+  height: 36px;
+  display: block;
+  font-size: 36px;
+  color: var(--lightBlack-70);
+  padding: 5px 0 5px 0;
+  text-overflow: ellipsis;
+}
+
+.calculator-screen-line2 {
+  width: 100%;
+  height: 24px;
+  display: block;
+  font-size: 24px;
+  color: var(--lightBlack-50);
+  padding: 5px 0 5px 0;
+  text-overflow: ellipsis;
+}

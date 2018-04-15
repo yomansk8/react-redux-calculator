@@ -1,0 +1,17 @@
+@import "../../constants/constants.css";
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.margin-bottom-25 {
+  margin-bottom: 25px;
+}
+
+.shadow {
+  box-shadow: 0px 2px 5px 0px var(--shadowColor);
+}

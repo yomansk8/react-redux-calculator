@@ -1,0 +1,45 @@
+.calculator-button {
+  width: 78px;
+  height: 78px;
+  border-radius: 39px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 78px;
+  vertical-align: middle;
+}
+
+.calculator-button:active {
+  transform: translateY(2px);
+}
+
+.white {
+  background-color: white;
+  color: var(--lightBlack-70);
+}
+
+.red {
+  background-color: var(--lightRed);
+  color: white;
+}
+
+.green {
+  background-color: var(--lightGreen);
+  color: white;
+}
+
+.blue {
+  background-color: var(--lightBlue);
+  color: white;
+}
+
+.large {
+  width: 192px;
+}
+
+.font-regular {
+  font-size: 24px;
+}
+
+.font-large {
+  font-size: 36px;
+}

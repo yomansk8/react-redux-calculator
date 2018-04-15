@@ -1,0 +1,15 @@
+:root {
+  /* Colors constants */
+  --lightBlueGrey: #f8f9ff;
+  --shadowColor: rgba(0, 0, 0, 0.25);
+
+  /* --backgroundColor: #CCFD87; */
+  --backgroundColor: #dcedfe;
+
+  --lightBlack: #333333;
+  --lightBlack-70: rgba(51, 51, 51, 0.7);
+  --lightBlack-50: rgba(51, 51, 51, 0.5);
+  --lightRed: #ff8a6a;
+  --lightGreen: #29b083;
+  --lightBlue: #4467ca;
+}
