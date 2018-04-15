@@ -12,3 +12,7 @@ body {
   font-family: "Meslo", sans-serif;
   background-color: var(--backgroundColor);
 }
+
+* {
+  tap-highlight-color: rgba(0, 0, 0, 0);
+}
