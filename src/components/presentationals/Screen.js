@@ -13,8 +13,12 @@ class Screen extends React.Component {
     const { expression, result } = this.props;
     return (
       <div className="calculator-screen">
-        <div className="calculator-screen-line1 slide-top">{this.prettifyExpression(expression)}</div>
-        <div className="calculator-screen-line2 slide-top">{this.prettifyExpression(result)}</div>
+        <div className="calculator-screen-line1 slide-top">
+          {this.prettifyExpression(expression)}
+        </div>
+        <div className="calculator-screen-line2 slide-top">
+          {this.prettifyExpression(result)}
+        </div>
       </div>
     );
   }

@@ -8,7 +8,12 @@ class Button extends React.Component {
     const colorClass = color ? color : "white";
     const fontSizeClass = `font-${fontSize ? fontSize : "regular"}`;
     return (
-      <div className={`calculator-button ${colorClass} ${large ? "large" : ""} ${fontSizeClass}`} onClick={onClick}>
+      <div
+        className={`calculator-button ${colorClass} ${
+          large ? "large" : ""
+        } ${fontSizeClass}`}
+        onClick={onClick}
+      >
         {text}
       </div>
     );
